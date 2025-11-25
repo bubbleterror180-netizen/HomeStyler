@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lighting</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+        .grid {
+            margin: 50px 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .nav-item {
+            padding: 10px 10px 10px 10px;
+
+        }
+
+        .container-fluid img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+
+        main {
+            box-sizing: border-box;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        .grid img {
+            height: 350px;
+            width: auto;
+        }
+
+        .hp1 {
+            margin-top: 30px;
+            padding: 70px 0px 0px 50px;
+            text-decoration: none;
+        }
+
+        .hp2 {
+            overflow-wrap: break-word;
+        }
+
+        .pricing {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .sale-price {
+            font-weight: bold;
+            color: green;
+            font-size: 1.2em;
+        }
+
+        .original-price {
+            text-decoration: line-through;
+            color: #999;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="nav_container">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/download.jpeg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index (1).html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#design">Design</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu active">
+                                <li><a class="dropdown-item" href="furniture.html">Furniture</a></li>
+                                <li><a class="dropdown-item" href="lightning.html">Lighting</a></li>
+                                <li><a class="dropdown-item" href="Decor.html">Decor</a></li>
+                                <li><a class="dropdown-item" href="kitchen.html">Kitchen</a></li>
+                                <li><a class="dropdown-item" href="bathroom.html">Bathroom</a></li>
+                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="form.html">Feedback</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact us </a>
+
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item1">
+                            <a class="nav-link active" href="#">Cart <i class="bi bi-cart-plus-fill"></i> </a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="hp1" style="
+            padding-left: 20px;
+        ">
+            <h1>Lighting</h1>
+            <h3 class="hp2"> Illuminate Your Space</h3>
+            <h4 class="hp2">A light for every moment</h4>
+            <p><i>Find the perfect glow for your home.</i></p>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <img src="images/light1.jpg" class="card-img-top" alt="Modern globe pendant light">
+                <div class="card-body">
+                    <h5 class="card-title">Stellar Globe Pendant</h5>
+                    <p class="card-text">A modern pendant light with a frosted glass globe, perfect for adding a soft,
+                        ambient glow over a kitchen island or dining table.</p>
+                    <div class="pricing">
+                        <div>
+                            <span class="sale-price">$129.99</span>
+                            <span class="original-price">$165.00</span>
+                        </div>
+                        <a href="#" class="btn btn-primary"> <i class="bi bi-bag-plus"></i> Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/light2.jpg" class="card-img-top" alt="Geometric metal chandelier">
+                <div class="card-body">
+                    <h5 class="card-title">Geometric Gold Chandelier</h5>
+                    <p class="card-text">Make a bold statement with this geometric chandelier. Its gold-finished frame
+                        creates an industrial feel in any living room or entryway.</p>
+                    <div class="pricing">
+                        <div>
+                            <span class="sale-price">$245.50</span>
+                            <span class="original-price">$300.00</span>
+                        </div>
+                        <a href="#" class="btn btn-primary"> <i class="bi bi-bag-plus"></i> Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/light3.jpg" class="card-img-top" alt="Minimalist flush-mount light">
+                <div class="card-body">
+                    <h5 class="card-title">Minimalist Drum Flush Mount</h5>
+                    <p class="card-text">This elegant flush-mount light provides uniform, bright light without taking up
+                        visual space. Ideal for hallways, closets, or rooms with low ceilings.</p>
+                    <div class="pricing">
+                        <div>
+                            <span class="sale-price">$89.99</span>
+                            <span class="original-price">$110.00</span>
+                        </div>
+                        <a href="#" class="btn btn-primary"> <i class="bi bi-bag-plus"></i> Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <img src="images/light4.jpg" class="card-img-top" alt="Modern black track lighting">
+                <div class="card-body">
+                    <h5 class="card-title">Matte Black Track Lights</h5>
+                    <p class="card-text">Highlight artwork or architectural features with this versatile track lighting.
+                        Adjustable spotlights allow you to customize the light direction for a perfect glow.</p>
+                    <div class="pricing">
+                        <div>
+                            <span class="sale-price">$175.00</span>
+                            <span class="original-price">$210.00</span>
+                        </div>
+                        <a href="#" class="btn btn-primary"> <i class="bi bi-bag-plus"></i> Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/light5.jpg" class="card-img-top" alt="Crystal beaded chandelier">
+                <div class="card-body">
+                    <h5 class="card-title">Crescent Crystal Chandelier</h5>
+                    <p class="card-text">Add a touch of luxury with this beautiful chandelier. Cascading crystal beads
+                        create a stunning light effect, making it a perfect centerpiece for a formal dining room.</p>
+                    <div class="pricing">
+                        <div>
+                            <span class="sale-price">$315.00</span>
+                            <span class="original-price">$380.00</span>
+                        </div>
+                        <a href="#" class="btn btn-primary"> <i class="bi bi-bag-plus"></i> Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/light6.jpg" class="card-img-top" alt="Industrial cage pendant light">
+                <div class="card-body">
+                    <h5 class="card-title">Industrial Cage Pendant</h5>
+                    <p class="card-text">A rugged yet stylish pendant with an open-wire cage design. This fixture is a
+                        great choice for adding an industrial, urban edge to your kitchen or bar area.</p>
+                    <div class="pricing">
+                        <div>
+                            <span class="sale-price">$95.00</span>
+                            <span class="original-price">$120.00</span>
+                        </div>
+                        <a href="#" class="btn btn-primary"> <i class="bi bi-bag-plus"></i> Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<footer class="bg-dark text-light pt-5">
+    <div class="container">
+        <div class="row gy-4">
+
+            <div class="col-12 col-md-4">
+                <div class="d-flex align-items-center mb-3">
+                    <svg width="48" height="48" viewBox="0 0 64 64" class="me-2" aria-hidden="true" focusable="false">
+                        <circle cx="32" cy="32" r="30" fill="#a100ff" />
+                        <path d="M16 30 L32 18 L48 30 V46 H36 V34 H28 V46 H16 Z" fill="#fff" />
+                    </svg>
+                    <span class="h5 mb-0">HomeStyler</span>
+                </div>
+                <p class="small text-muted">
+                    Design-forward furniture & decor. Crafted for comfort, styled for life.
+                </p>
+
+                <div class="d-flex gap-2">
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle" aria-label="Pinterest">
+                        <i class="bi bi-pinterest"></i>
+                    </a>
+                    <a href="#" class="btn btn-outline-light btn-sm rounded-circle" aria-label="Twitter">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-2">
+                <h6 class="text-white">Shop</h6>
+                <ul class="list-unstyled small">
+                    <li><a href="#" class="text text-decoration-none">Furniture</a></li>
+                    <li><a href="#" class="text text-decoration-none">Lighting</a></li>
+                    <li><a href="#" class="text text-decoration-none">Decor</a></li>
+                    <li><a href="#" class="text text-decoration-none">Kitchen</a></li>
+                    <li><a href="#" class="text text-decoration-none">Bathroom</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2">
+                <h6 class="text-white">Company</h6>
+                <ul class="list-unstyled small">
+                    <li><a href="#" class="text text-decoration-none">About Us</a></li>
+                    <li><a href="#" class="text text-decoration-none">Careers</a></li>
+                    <li><a href="#" class="text text-decoration-none">Blog</a></li>
+                    <li><a href="#" class="text text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2">
+                <h6 class="text-white">Our Team</h6>
+                <ul class="list-unstyled small">
+                    <li>Project Lead:</li>
+                    <li class="ms-3">Shaheer Ur Rehman</li>
+                    <li>Frontend Developer:</li>
+                    <li class="ms-3">Muhammad Zain Ali</li>
+                    <li>Contributing Developers:</li>
+                    <li class="ms-3">Ayan Ahmed</li>
+                    <li class="ms-3">Ezhan Shah</li>
+                    <li class="ms-3">Bilal Babar</li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-md-2">
+                <h6 class="text-white">Special Thanks</h6>
+                <ul class="list-unstyled small">
+                    <li>Our Mentor:</li>
+                    <li class="ms-3">Sir Muhammad Usaid</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <hr class="border-secondary mt-4">
+
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center pb-4">
+            <small class="text"> &copy; <span id="year"></span> HomeStyler. All rights reserved.</small>
+            <div class="mt-2 mt-md-0">
+                <a href="#" class="text small me-3 text-decoration-none">Privacy</a>
+                <a href="#" class="text small me-3 text-decoration-none">Terms</a>
+                <a href="#" class="text small text-decoration-none">Sitemap</a>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
